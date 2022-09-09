@@ -1,0 +1,387 @@
+
+.card-saldo{
+    position: absolute !important;
+    top: 170px !important;
+    height: 65px;
+    z-index: 3 !important;
+    margin-bottom: 16px;
+    margin-right: 17px !important;
+    padding-right: 79px ;
+    background: #ffffff; 
+    border: 0 !important;
+    border-radius: 15px; 
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1) ;
+}
+
+.padding-24{
+    padding: 0px 24px ;
+}
+
+.card-lokasi{
+    border-radius:  15px 15px 0px 0px !important; 
+    margin-top: 45px !important;
+}
+.card-lokasi, .card-checkout{
+    height: 86px;
+    margin-top: 14px;
+    background: #ffffff; 
+    border: 0 !important;
+    border-radius: 15px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+}
+
+.tombol-pesan{
+    position: relative;
+    margin-bottom: 34px;
+    background-color: #293881; 
+    color:#ffffff; 
+    border-radius: 0px 0px 15px 15px; 
+    height: 42px;
+    }
+
+.tombol-topup{
+    position: relative; 
+    right: 40px !important;
+    width: 105px;
+    height: 39px;
+    margin-left: 28px;
+    background-color: #293881; 
+    color:#ffffff; 
+    border-radius: 25px;    
+}
+
+.footer-home{
+    padding-left: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 24px;
+    
+}
+
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-8px{
+    font-size: 0.5rem !important;
+}
+
+.font-9px{
+    font-size: 0.5625rem !important;
+}
+
+.font-10px{
+    font-size: 0.625rem !important;
+}
+
+.font-12px{
+    font-size: 0.75rem !important;
+}
+
+.font-14px{
+    font-size: 0.875rem !important;
+}
+
+.font-16px{
+    font-size: 1rem !important;
+}
+
+.font-18px{
+    font-size: 1.125rem !important;
+}
+
+.font-20px{
+    font-size: 1.25rem !important;
+}
+
+.tebal{
+    font-weight: 700;
+}
+
+.sedang{
+    font-weight: 600;
+}
+
+.tipis{
+    font-weight: 400;
+}
+
+.putih{
+    color: #ffffff;
+}
+
+.biru{
+    color: #293881
+}
+
+.oren{
+    color: #DB9457 !important;
+}
+
+.hijau{
+    color: #34A853 !important;
+}
+
+.hitam{
+    color: #000000 !important; 
+}
+
+.bg-biru{
+    --bs-bg-opacity: 1;
+    background-color: #293881;
+}
+
+.col-w10{
+    width: 10% !important;
+}
+
+.col-w20{
+    width: 20% !important;
+}
+
+.col-w30{
+    width: 30% !important;
+}
+
+.col-w35{
+    width: 35% !important;
+}
+
+.col-w33{
+    width: 33% !important;
+    padding-right: 5px !important;
+    padding-left: 10px !important;
+    
+}
+
+.col-w40{
+    width: 40% !important;
+}
+
+.col-w50{
+    width: 50% !important;
+}
+
+.col-w60{
+    width: 60% !important;
+}
+
+.col-w65{
+    width: 65% !important;
+}
+
+.col-w70{
+    width: 70% !important;
+}
+
+.col-w80{
+    width: 80% !important;
+}
+
+.col-w90{
+    width: 90% !important;
+}
+
+.gmbr-home{
+    width: 98px !important;
+    height: 73px !important;
+}
+
+.header-menu{
+    top: 0;
+    position: relative;
+    height: 86px ;
+    box-shadow: 0 1px 5px  rgba(0,0,0,0.1);
+    padding-left: 0;   
+    
+} 
+
+.subheader-menu{
+    top: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: 24px;
+    width: 91%;
+    padding-top: 22px;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+} 
+
+::-webkit-scrollbar{
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+
+
+.tombol{
+    margin-right: 6px !important;
+    border-radius: 10px;
+    height: 50px;
+    width: 60px;
+    margin: auto;
+    background-color: #2938815e;
+    border: 0 ;
+}
+
+.page-menu{
+    margin-top: 24px;
+    margin-bottom: 79px;
+}
+
+.subpage-menu{
+    margin-bottom: 24px;
+}
+
+.gmbr-menu{
+    width: 100% !important;
+    height: 130px !important;
+}
+
+ .back-btn{
+    z-index: 999;
+    position: absolute; 
+}
+
+
+
+.card-keranjang3{
+    bottom: 0;
+    height: 65px;
+    border-radius: 30px;
+    background-color: #293881;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.card-detail{
+    position: relative;
+    flex: 0 0 500px;
+    width: 100%;
+}
+
+.sub-card-detail{
+    position: absolute ;
+    top: -25px !important;
+    width: 100%;
+    height: 83px;
+    z-index: 3 !important;
+    padding-left: 22px !important;
+    background: #ffffff;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid;
+    border-radius: 30px 30px 0px 0px; 
+}
+
+.card-pilihan{
+    top: 90px;
+    border: 0 !important;
+    margin-bottom: 100px;
+}
+
+.card-topping{
+    position: relative;
+    border: 0 !important;
+    margin-bottom: 24px ;
+}
+
+.catatan{
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.btn-detail{
+    margin-top: 24px;
+    height: 24px;
+    width: 24px;
+    border: 0 !important;
+    background-color: transparent;
+}
+
+.card-keranjang1{
+    border: 0 !important;
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    background-color: #293881;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1) ;
+    border-radius: 30px;
+    padding-top: 13px;
+    padding-left: 27px;
+}
+
+.header-profil{
+    top: 0;
+    position: relative;
+    padding-top: 22px;
+    padding-right: 24px;
+    padding-left: 24px;
+    height: 60px ;
+    box-shadow: 0 1px 0px 0 rgba(0,0,0,0.1);  
+} 
+
+.card-loyalitas{
+    background-color: #293881;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1) ;
+    border-radius: 15px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.btn-profile{
+    margin-top: 5px;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1) ;
+    height: 30px;
+}
+
+.form-custom{
+    border-radius:0;
+    box-shadow:none !important;
+    border: none;
+    border-bottom: 2px solid #293881;
+}
+
+.card-voucher{
+    width: 320px;
+    height: 178px;
+}
+
+.tombol-pakai{
+    padding: 0;
+    margin-right: 4px;
+    background-color: #293881; 
+    color:#ffffff; 
+    border-radius: 30px; 
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 30px;
+    width: 60px;
+    }
+
+.teks-voucher{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.btn-footer{
+    height: 70px;
+    background-color: #293881;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0%;
+    z-index: 3 !important;
+}

@@ -1,0 +1,47 @@
+.accordion{
+  background-color: #FAFAFA;
+}
+.accordion2{
+  background-color: #ffffff;
+  border-top: 2px solid rgba(229, 229, 229, 0.5) !important;
+}
+.accordion, .accordion2 { 
+   color: #293881;
+   cursor: pointer;
+   padding: 24px;
+   width: 100%;
+   border: none;
+   text-align: left;
+   outline: none;
+   font-size: 14px;
+   font-weight:600;
+   transition: 0.4s;
+ }
+ 
+/* 
+ .active, .accordion2:hover {
+  background-color: #ffffff !important;
+} */
+ .active, .accordion:hover {
+   background-color: #FAFAFA !important;
+ }
+ 
+ .accordion:after, .accordion2:after {
+   content: url(../images/arrow-circle-right.svg);
+   color: #ffffff;
+   font-weight: bold;
+   float: right;
+   margin-left: 5px;
+ }
+ 
+ .active:after {
+    content: url(../images/arrow-circle-down.svg);
+ }
+ 
+ .panel {
+   padding: 0 18px;
+   background-color: white;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+ }
